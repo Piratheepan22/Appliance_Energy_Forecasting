@@ -1,0 +1,5 @@
+Trial,Target,Optimiser,Loss,Window,Units,Layers,Dropout,Search score,Mean score (new seeds),Std,Mean val MAE,Mean val RMSE
+4,raw,adam,huber,24,32,1,0.3,0.8627,0.861,0.0056,24.1374,59.2314
+6,raw,rmsprop,huber,36,32,2,0.2,0.868,0.8659,0.0039,24.4735,59.0651
+7,log,adam,mse,48,128,2,0.4,0.861,0.8626,0.0038,23.9215,60.0002
+11,log,adam,huber,48,32,3,0.1,0.8636,0.872,0.0057,24.0198,61.063

@@ -1,0 +1,17 @@
+[
+ "Appliances",
+ "app_level_ratio",
+ "level_vs_typical",
+ "steps_since_spike",
+ "app_mean_3",
+ "app_momentum",
+ "app_ewm_6",
+ "lag_8",
+ "app_std_18",
+ "NSM",
+ "lag_1",
+ "tod_sin",
+ "typical_at_target",
+ "lag_9",
+ "app_mean_6"
+]

@@ -1,0 +1,7 @@
+Feature set,n features,Val MAE,Val RMSE,Score
+All candidates,93,27.9683,58.2971,0.9237
+After correlation filter,90,28.1861,58.4604,0.9289
+Above noise level,23,25.4992,56.7966,0.8683
+RFE top 20,20,25.6163,57.3212,0.8741
+RFE top 15,15,25.6947,57.1456,0.8743
+RFE top 10,10,26.1518,58.4029,0.8916

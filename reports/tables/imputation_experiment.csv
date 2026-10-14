@@ -1,0 +1,11 @@
+gap,column,Forward fill,Linear (time) interpolation,Mean fill
+10 min,Appliances,89.626,60.862,110.148
+10 min,RH_1,0.58,0.313,3.921
+10 min,RH_out,0.969,0.234,14.059
+10 min,T1,0.052,0.028,1.625
+10 min,T_out,0.177,0.037,4.959
+60 min blocks,Appliances,118.722,91.225,111.209
+60 min blocks,RH_1,1.54,1.209,4.251
+60 min blocks,RH_out,3.338,0.944,15.715
+60 min blocks,T1,0.156,0.053,1.605
+60 min blocks,T_out,0.708,0.156,5.245

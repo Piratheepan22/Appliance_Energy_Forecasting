@@ -1,0 +1,14 @@
+Model,Type,Val MAE,Val RMSE,Val score,Test MAE,Test RMSE,Test MAPE %,Test R2
+Persistence (last value),Baseline,27.587,69.927,1.0,26.651,66.438,21.936,0.467
+Moving average (1 hour),Baseline,37.798,83.447,1.282,34.296,75.528,28.917,0.312
+Linear Regression,Baseline,27.93,62.639,0.954,27.283,59.733,25.151,0.569
+Random Forest,Baseline,25.676,57.27,0.875,25.676,58.124,23.132,0.592
+Random Forest (log target),Baseline,23.762,59.025,0.853,23.687,58.884,19.132,0.582
+Gradient Boosting,Baseline,25.316,57.876,0.873,25.279,58.83,22.51,0.582
+Gradient Boosting (log target),Baseline,23.805,58.459,0.849,23.635,58.992,19.134,0.58
+CNN-LSTM default settings (single run),Deep learning,25.962,57.523,0.882,26.81,58.956,24.261,0.581
+CNN-LSTM default settings (5-run average),Deep learning,24.862,56.876,0.857,25.171,57.041,22.688,0.607
+CNN-LSTM tuned main model (single run),Deep learning,24.074,59.002,0.858,23.562,57.279,20.007,0.604
+CNN-LSTM tuned main model (5-run average),Deep learning,23.64,58.166,0.844,23.433,56.841,20.002,0.61
+CNN-LSTM companion model (5-run average),Deep learning,23.757,59.443,0.856,23.24,57.086,19.323,0.607
+CNN-LSTM FINAL BLEND (main + companion),Deep learning,23.376,58.194,0.84,23.15,56.522,19.57,0.615

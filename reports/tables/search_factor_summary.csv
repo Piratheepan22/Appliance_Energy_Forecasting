@@ -1,0 +1,7 @@
+setting,value,trials,mean val MAE,mean val RMSE,mean score
+target_mode,log,8,24.531,61.481,0.884
+target_mode,raw,8,25.217,58.756,0.877
+loss,huber,7,24.418,60.498,0.875
+loss,mse,9,25.229,59.823,0.885
+optimizer,adam,7,24.766,59.11,0.872
+optimizer,rmsprop,9,24.958,60.903,0.888

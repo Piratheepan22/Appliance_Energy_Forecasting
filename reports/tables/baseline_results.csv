@@ -1,0 +1,15 @@
+,Model,Set,MAE,RMSE,MAPE %,R2
+0,Persistence (last value),Validation,27.5874,69.9269,22.6342,0.4764
+1,Persistence (last value),Test,26.6506,66.4376,21.9361,0.4674
+2,Moving average (1 hour),Validation,37.7984,83.4467,33.1724,0.2543
+3,Moving average (1 hour),Test,34.2957,75.5282,28.917,0.3117
+4,Linear Regression,Validation,27.93,62.6387,26.2384,0.5798
+5,Linear Regression,Test,27.2825,59.733,25.1506,0.5695
+6,Random Forest,Validation,25.6764,57.2696,24.343,0.6488
+7,Random Forest,Test,25.6763,58.1239,23.1323,0.5924
+8,Random Forest (log target),Validation,23.7615,59.0251,20.1559,0.6269
+9,Random Forest (log target),Test,23.687,58.8841,19.132,0.5816
+10,Gradient Boosting,Validation,25.3159,57.8762,23.8618,0.6413
+11,Gradient Boosting,Test,25.2785,58.8302,22.5105,0.5824
+12,Gradient Boosting (log target),Validation,23.805,58.4587,20.4318,0.634
+13,Gradient Boosting (log target),Test,23.6354,58.9925,19.1339,0.5801

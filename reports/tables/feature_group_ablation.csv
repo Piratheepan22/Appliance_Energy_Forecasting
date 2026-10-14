@@ -1,0 +1,5 @@
+Feature set,n features,Val MAE,Val RMSE,Val R2,Score
+Original sensors only,25,73.762,111.607,-0.334,2.135
++ calendar features,37,60.015,101.152,-0.096,1.811
+"+ recent history (lags, rolling)",73,27.896,58.673,0.631,0.925
++ context and interactions (all),93,27.968,58.297,0.636,0.924

@@ -1,0 +1,6 @@
+Step,Val MAE,Val RMSE,Test MAE,Test RMSE,Test MAPE %,Test R2
+"1. Default settings, one run",25.962,57.523,26.81,58.956,24.261,0.581
+"2. Default settings, 5-run average",24.862,56.876,25.171,57.041,22.688,0.607
+"3. Tuned main model, one run",24.074,59.002,23.562,57.279,20.007,0.604
+"4. Tuned main model, 5-run average",23.64,58.166,23.433,56.841,20.002,0.61
+5. Final blend (main + companion),23.376,58.194,23.15,56.522,19.57,0.615

@@ -1,0 +1,74 @@
+{
+ "n_selected_features": 15,
+ "selected_features": [
+  "Appliances",
+  "app_level_ratio",
+  "level_vs_typical",
+  "steps_since_spike",
+  "app_mean_3",
+  "app_momentum",
+  "app_ewm_6",
+  "lag_8",
+  "app_std_18",
+  "NSM",
+  "lag_1",
+  "tod_sin",
+  "typical_at_target",
+  "lag_9",
+  "app_mean_6"
+ ],
+ "best_architecture": "cnn_lstm",
+ "main_config": {
+  "arch": "cnn_lstm",
+  "window": 24,
+  "units": 32,
+  "n_layers": 1,
+  "dropout": 0.1,
+  "l2": 0.0001,
+  "dense_units": 16,
+  "lr": 0.003,
+  "batch_size": 256,
+  "optimizer": "adam",
+  "loss": "huber",
+  "target_mode": "raw"
+ },
+ "companion_config": {
+  "arch": "cnn_lstm",
+  "window": 48,
+  "units": 128,
+  "n_layers": 2,
+  "dropout": 0.4,
+  "l2": 1e-05,
+  "dense_units": 16,
+  "lr": 0.003,
+  "batch_size": 128,
+  "optimizer": "adam",
+  "loss": "mse",
+  "target_mode": "log"
+ },
+ "blend_weight_of_main_model": 0.65,
+ "final_seeds": [
+  42,
+  7,
+  2024,
+  11,
+  99
+ ],
+ "test_start": "2016-04-30 08:20:00",
+ "final_test_metrics": {
+  "Test MAE": 23.15,
+  "Test RMSE": 56.522,
+  "Test MAPE %": 19.57,
+  "Test R2": 0.615
+ },
+ "library_versions": {
+  "tensorflow": "2.21.0",
+  "keras": "3.13.2",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.6.1",
+  "matplotlib": "3.10.0",
+  "seaborn": "0.13.2",
+  "joblib": "1.6.0"
+ }
+}
